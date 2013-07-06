@@ -1,4 +1,22 @@
 body{
 	color: #FFF;
-	
+}
+
+.SectionHome{
+	height: 800px;
+	background: url(../img/photos/bean.png);
+	background-repeat: no-repeat;
+	background-position: 0 -300px;
+}
+.home{
+	margin-top: 200px;
+	background: rgba(0, 0, 0, 0.75);
+	padding: 30px;
+}
+.home h1{
+	font-size: 80px;
+	padding: 10px 0 25px 0;
+}
+.home h2{
+	padding-bottom: 20px;
 }
