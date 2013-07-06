@@ -1,7 +1,6 @@
 body{
 	color: #FFF;
 }
-
 .SectionHome{
 	height: 800px;
 	background: url(../img/photos/bean.png);
@@ -18,5 +17,11 @@ body{
 	padding: 10px 0 25px 0;
 }
 .home h2{
-	padding-bottom: 20px;
+}
+.home p{
+	padding-bottom: 15px;
+}
+.SectionProjects{
+	height: 800px;
+	background-color: #333;
 }
