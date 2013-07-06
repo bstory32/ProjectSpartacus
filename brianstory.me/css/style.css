@@ -1,6 +1,9 @@
 body{
 	color: #FFF;
 }
+.navbar{
+	background-color: #000;
+}
 .SectionHome{
 	height: 800px;
 	background: url(../img/photos/bean.png);
@@ -22,7 +25,8 @@ body{
 	padding-bottom: 15px;
 }
 .SectionAbout{
-	background-color: #888;
+	height: 800px;
+	background-color: #2980b9;
 }
 .about{
 	padding: 40px 0 25px 0;
@@ -30,5 +34,26 @@ body{
 }
 .SectionProjects{
 	height: 800px;
-	background-color: #333;
+	background-color: #2c3e50;
+}
+.projects{
+
+}
+.SectionCodeSamples{
+	height: 800px;
+	background-color: #d35400
+}
+.codeSamples{
+
+}
+.SectionContact{
+	height: 800px;
+	background-color: #c0392b;
+}
+.SectionFooter{
+	height: 200px;
+	background-color: #2c3e50;
+}
+.footer{
+	
 }
