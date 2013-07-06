@@ -21,6 +21,13 @@ body{
 .home p{
 	padding-bottom: 15px;
 }
+.SectionAbout{
+	background-color: #888;
+}
+.about{
+	padding: 40px 0 25px 0;
+	height: 500px;
+}
 .SectionProjects{
 	height: 800px;
 	background-color: #333;
