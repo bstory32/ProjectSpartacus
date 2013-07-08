@@ -1,6 +1,9 @@
 body{
 	color: #FFF;
 }
+h1, h2, img, p, ul{
+	margin: 0 auto 0 10px;
+}
 .navbar{
 	background-color: #000;
 }
