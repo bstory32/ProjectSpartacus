@@ -4,8 +4,14 @@ body{
 h1, h2, img, p, ul{
 	margin: 0 auto 0 10px;
 }
+p{
+	text-indent: 1em;
+}
 p + p{
 	margin-top: 10px;
+}
+p + h2{
+	margin-top: 20px;
 }
 .navbar{
 	background-color: #000;
