@@ -23,16 +23,23 @@ p + p{
 	margin-top: 10px;
 	text-indent: 1.5em;
 }
-
 p + h2{
 	margin-top: 20px;
 }
 .navbar{
 	background-color: #000;
 }
-.push-up{
+.expand-up{
 	padding-top: 50px;
-	padding-bottom: 50px;
+}
+.expand-down-small{
+	padding-bottom: 20px;
+}
+.expand-down-medium{
+	padding-bottom: 80px;
+}
+.expand-down-large{
+	padding-bottom: 150px;
 }
 .sectionHome{
 	height: 800px;
