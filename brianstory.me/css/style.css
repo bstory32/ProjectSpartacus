@@ -1,11 +1,14 @@
 body{
 	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
 }
 h1, h2, img, p, ul{
 	margin: 0 auto 0 10px;
 }
+.font-brothers{
+	font-family: 'Brothers', Helvetica;
+}
 p{
-	text-indent: 1em;
 }
 p + p{
 	margin-top: 10px;
@@ -46,6 +49,11 @@ p + h2{
 .about{
 	height: 500px;
 }
+.about p{
+	color: #bee0f6;
+	font-size: 15px;
+	line-height: 1.2em;
+}
 .about ul{
 	list-style: none;
 }
@@ -77,4 +85,14 @@ p + h2{
 }
 .footer{
 	
+}
+/* Fonts */
+
+@font-face {
+    font-family: 'Brothers';
+    src: url('fonts/brothbolalt.eot');
+    src: url('fonts/brothbolalt.eot?#iefix') format('embedded-opentype'),
+         url('fonts/brothbolalt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
