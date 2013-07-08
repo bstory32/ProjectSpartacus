@@ -4,6 +4,9 @@ body{
 h1, h2, img, p, ul{
 	margin: 0 auto 0 10px;
 }
+p + p{
+	margin-top: 10px;
+}
 .navbar{
 	background-color: #000;
 }
