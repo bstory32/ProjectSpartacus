@@ -1,11 +1,11 @@
 //function for navbar
 
 $(document).ready(function() {
-            
             var $nav = $('.nav');
             var $nav2 = $('.link')
             $nav.onePageNav();
             $('.navbar').css({ 'opacity' : 0.8 });  
+
             
             $nav2.on('click', 'a', function(e){
                 var $link = $('.link a').attr('href');
@@ -34,21 +34,18 @@ $(function() {
 });
 
 //function for navbar opacity
-
 $(window).scroll(function () {
     if ($(this).scrollTop() > 80) {
         $('.navbar').css({ 'opacity' : 1.0 });  
     }
-    
     if ($(this).scrollTop() < 80) {
         $('.navbar').css({ 'opacity' : 0.8 });  
-    } 
-                   
+    }                 
 });
-
 
 //function for isotope
 $(document).ready(function(){
+
 			    var $container = $('.thumbnails');
 			    $container.isotope({
 			        filter: '*',
