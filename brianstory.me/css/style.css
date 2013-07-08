@@ -40,6 +40,12 @@ p + p{
 .about{
 	height: 500px;
 }
+.about ul{
+	list-style: none;
+}
+.about ul li strong:after{
+	content: ' - ';
+}
 .sectionProjects{
 	height: 800px;
 	background-color: #2c3e50;
