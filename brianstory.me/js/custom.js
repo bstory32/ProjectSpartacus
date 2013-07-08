@@ -5,7 +5,17 @@ $(document).ready(function() {
             var $nav2 = $('.link')
             $nav.onePageNav();
             $('.navbar').css({ 'opacity' : 0.8 });  
-
+            // Initialize font
+	         WebFontConfig = { fontdeck: { id: '35088' } };
+				(function() {
+				  var wf = document.createElement('script');
+				  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+				  wf.type = 'text/javascript';
+				  wf.async = 'true';
+				  var s = document.getElementsByTagName('script')[0];
+				  s.parentNode.insertBefore(wf, s);
+				})();
             
             $nav2.on('click', 'a', function(e){
                 var $link = $('.link a').attr('href');
@@ -42,35 +52,6 @@ $(window).scroll(function () {
         $('.navbar').css({ 'opacity' : 0.8 });  
     }                 
 });
-
-//function for isotope
-$(document).ready(function(){
-
-			    var $container = $('.thumbnails');
-			    $container.isotope({
-			        filter: '*',
-			        animationOptions: {
-			            duration: 750,
-			            easing: 'linear',
-			            queue: false,
-			        }
-			    });
-			
-				$('#naveed a').click(function(){
-				    var selector = $(this).attr('data-filter');
-				    $container.isotope({
-				        filter: selector,
-				        animationOptions: {
-				            duration: 750,
-				            easing: 'linear',
-				            queue: false,
-				        }
-				    });
-				  return false;
-				});
-			
-			});
-			
 
 
 

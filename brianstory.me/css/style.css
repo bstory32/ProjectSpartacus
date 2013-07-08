@@ -1,18 +1,29 @@
 body{
 	color: #FFF;
-	font-family: 'Open Sans', sans-serif;
+	font-family:"Proxima Nova Regular", 'Helvetica Neue', Arial, Helvetica, sans-serif; 
+	font-size-adjust:0.488; 
+	font-weight:normal; 
+	font-style:normal;
 }
 h1, h2, img, p, ul{
 	margin: 0 auto 0 10px;
 }
-.font-brothers{
-	font-family: 'Brothers', Helvetica;
+h2 + p{
+	margin-top: 20px;
+}
+h2 + p:first-letter { 
+   font-size: 2em;
+   line-height: 0; 
 }
 p{
+	font-size: ; /* Implicity 1em */
+	line-height: 1.5;
 }
 p + p{
 	margin-top: 10px;
+	text-indent: 1.5em;
 }
+
 p + h2{
 	margin-top: 20px;
 }
@@ -50,7 +61,7 @@ p + h2{
 	height: 500px;
 }
 .about p{
-	color: #bee0f6;
+	color: #ddedf7;
 	font-size: 15px;
 	line-height: 1.2em;
 }
@@ -87,7 +98,9 @@ p + h2{
 	
 }
 /* Fonts */
-
+.font-brothers{
+	font-family: 'Brothers', Helvetica;
+}
 @font-face {
     font-family: 'Brothers';
     src: url('fonts/brothbolalt.eot');
