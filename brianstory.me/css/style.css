@@ -32,6 +32,7 @@ p + h2{
 }
 .push-up{
 	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .sectionHome{
 	height: 800px;
@@ -54,11 +55,10 @@ p + h2{
 	padding-bottom: 15px;
 }
 .sectionAbout{
-	height: 800px;
+	height: 400px;
 	background-color: #2980b9;
 }
 .about{
-	height: 500px;
 }
 .about p{
 	color: #ddedf7;
