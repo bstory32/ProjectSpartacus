@@ -5,6 +5,7 @@ $(document).ready(function() {
             var $nav = $('.nav');
             var $nav2 = $('.link')
             $nav.onePageNav();
+            $('.navbar').css({ 'opacity' : 0.8 });  
             
             $nav2.on('click', 'a', function(e){
                 var $link = $('.link a').attr('href');
