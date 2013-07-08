@@ -4,7 +4,10 @@ body{
 .navbar{
 	background-color: #000;
 }
-.SectionHome{
+.push-up{
+	padding-top: 40px;
+}
+.sectionHome{
 	height: 800px;
 	background: url(../img/photos/bean.png);
 	background-repeat: no-repeat;
@@ -24,33 +27,34 @@ body{
 .home p{
 	padding-bottom: 15px;
 }
-.SectionAbout{
+.sectionAbout{
 	height: 800px;
 	background-color: #2980b9;
+	padding-top: 40px;
 }
 .about{
-	padding: 40px 0 25px 0;
+	
 	height: 500px;
 }
-.SectionProjects{
+.sectionProjects{
 	height: 800px;
 	background-color: #2c3e50;
 }
 .projects{
 
 }
-.SectionCodeSamples{
+.sectionCodeSamples{
 	height: 800px;
 	background-color: #d35400
 }
 .codeSamples{
 
 }
-.SectionContact{
+.sectionContact{
 	height: 800px;
 	background-color: #c0392b;
 }
-.SectionFooter{
+.sectionFooter{
 	height: 200px;
 	background-color: #2c3e50;
 }
