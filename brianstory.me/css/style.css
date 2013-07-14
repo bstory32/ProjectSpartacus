@@ -112,6 +112,9 @@ p + h2{
 	height: 800px;
 	background-color: #c0392b;
 }
+.contactTextarea{
+	width: 200px;
+}
 .sectionFooter{
 	padding: 10px 0;
 	height: 40px;
