@@ -26,6 +26,12 @@ p + p{
 p + h2{
 	margin-top: 20px;
 }
+.push-up{
+	margin-top: 10px;
+}
+.push-down{
+	margin-bottom: 10px;
+}
 .navbar{
 	background-color: #000;
 }
@@ -134,4 +140,9 @@ p + h2{
          url('fonts/brothbolalt.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+/* Project indivudal popup style */
+.popup{
+	width: 500px;
 }

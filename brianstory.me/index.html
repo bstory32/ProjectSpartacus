@@ -13,6 +13,9 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<!-- include fancybox -->
+	<link rel="stylesheet" type="text/css" media="screen" href="js/fancybox/jquery.fancybox.css" />
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="js/custom.js"></script>
 </head>
 <body>
@@ -51,6 +54,7 @@
 			</div>
 		</div>
 	</div>
+
 	<!-- Section 1.5: About -->
 	<div class="sectionAbout expand-up expand-down-large" id="sectionAbout">
 		<div class="container">
@@ -84,6 +88,7 @@
 			</div>
 		</div>
 	</div>
+
 	<!-- Section 2: Projects -->
 	<div class="sectionProjects expand-up expand-down-large" id="sectionProjects">
 		<div class="container">
@@ -93,91 +98,39 @@
 						<h2 class="font-brothers">Projects</h2>
 						<hr>
 						<div class="controls">
-							<span class="btn btn-info sort" data-sort="data-cat" data-order="desc"><i class="icon-chevron-up icon-white"></i> Latest</span>
-							<span class="btn btn-info sort" data-sort="data-cat" data-order="asc"><i class="icon-chevron-down icon-white"></i> Oldest</span>
+							<span class="btn btn-info sort" data-sort="data-cat" data-order="asc"><i class="icon-chevron-up icon-white"></i> Latest</span>
+							<span class="btn btn-info sort" data-sort="data-cat" data-order="desc"><i class="icon-chevron-down icon-white"></i> Oldest</span>
 							<div id="Grid">
-								<a href="http://www.tech5designs.com" target="_blank" class="mix span4" data-cat="1">
+							
+
+
+								<a href="#30DayPhotoChallengeData" target="_blank" class="mix span4 inline" data-cat="4">
+									<h3>30 Day Photo Challenge</h3>
+									<img src="img/projects/tech5designs.png">
+								</a>
+									<div style="display:none">
+										<div id="30DayPhotoChallengeData" class="span12">
+											
+											<h1>30 Day Photo Challenge <a class="btn btn-large btn-success" href="http://aachy.com" target="_blank">Visit Website</a></h1>
+											<hr>
+											<div class="span4"><img src="http://placehold.it/350x350"></div>
+											<div class="span6 text-left"><p>This was the 30 day photo Challenge I did!</p></div>
+											<div class="span10 push-up push-down"><img src="http://placehold.it/100x100"><img src="http://placehold.it/100x100"></div>
+										</div>
+									</div>
+								<a href="http://www.tech5designs.com" target="_blank" class="mix span4" data-cat="3">
 									<h3>Tech 5 Designs</h3>
 									<img src="img/projects/tech5designs.png">
-									<table class="table">
-										<thead>
-											<tr>
-												<th>Task</th>
-												<th>Description</th>
-											</tr>
-										</thead>
-										<tbody>
-
-											<tr>
-												<td><strong>Prototyping</strong></td>
-												<td>Used Balsomiq to sketch up, discuss, and test features</td>
-											</tr>
-											<tr>
-												<td><strong>Design</strong></td>
-												<td>Worked on all UI elements</td>
-											</tr>
-											
-											<tr>
-												<td colspan="2"> <strong>Completion Date: </strong><span class="badge badge-warning"> In Progress</span></td>
-											</tr>
-										</tbody>
-									</table>
 								</a>
 								<a href="http://www.aachy.com" target="_blank" class="mix span4" data-cat="2">
 									<h3>Aachy</h3>
 									<img src="img/projects/aachy.png">
-									<table class="table">
-									<thead>
-											<tr>
-												<th>Task</th>
-												<th>Description</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><strong>Planning</strong></td>
-												<td>Worked with multiple individuals to plan and build site features</td>
-											</tr>
-											<tr>
-												<td><strong>Prototyping</strong></td>
-												<td>Used Balsomiq to sketch up entire site for feature considerations</td>
-											</tr>
-											<tr>
-												<td><strong>Design</strong></td>
-												<td>Worked on all UI elements</td>
-											</tr>
-											<tr>
-												<td><strong>UX</strong></td>
-												<td>Worked with multiple test groups to understand user behavior and motivation</td>
-											</tr>
-											<tr>
-												<td colspan="2"> <strong>Completion Date: </strong><span class="badge badge-warning"> In Progress</span></td>
-											</tr>
-										</tbody>
-									</table>
 								</a>
 								
-								<a href="http://www.eurobahnimports.com" target="_blank" class="mix span4" data-cat="3">
+								<a href="http://www.eurobahnimports.com" target="_blank" class="mix span4" data-cat="1">
 									<h3>Eurobahn Imports</h3>
 									<img src="img/projects/eurobahnimports.png">
-									<table class="table">
-										<thead>
-											<tr>
-												<th>Task</th>
-												<th>Description</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Design</td>
-												<td>Worked with company to build site</td>
-											</tr>
-											<tr>
-												<td colspan="2"> Completion Date: <span class="badge badge-success"> July 2011</span></td>
-											</tr>
-											
-										</tbody>
-									</table>
+									
 								</a>
 								<a href="#" class="gap"></a> <!-- "gap" elements fill in the gaps in justified grid -->
 							</div>
@@ -196,30 +149,30 @@
 					<div class="workSamples">
 						<h2 class="font-brothers">Work Sample</h2>
 						<hr>
-						</div>
-						<div class="span3">
-							<h3>HTML/CSS</h3>
-							<span>These are basic Templates I built</span>
-							<ul>
-								<li class="btn">Lawyer Site</li>
-								<li class="btn">Dentist Site</li>
-								<li class="btn">Food Site</li>
-								<li class="btn">Gaming Site</li>
-							</ul>
-						</div>
-						<div class="span3">
-							<span>A collection of simple scripts</span>
-							<h3>Javascript</h3>
-							<ul class="unstyled">
-								<li class="btn">Lawyer Site</li>
-								<li class="btn">Destist Site</li>
-								<li class="btn">Food Site</li>
-								<li class="btn">Gaming Site</li>
-							</ul>
-						</div>
-						<div class="span3">
-							<h3>Design Theory</h3>
-						</div>
+					</div>
+					<div class="span3">
+						<h3>HTML/CSS</h3>
+						<span>These are basic Templates I built</span>
+						<ul>
+							<li class="btn">Lawyer Site</li>
+							<li class="btn">Dentist Site</li>
+							<li class="btn">Food Site</li>
+							<li class="btn">Gaming Site</li>
+						</ul>
+					</div>
+					<div class="span3">
+						<span>A collection of simple scripts</span>
+						<h3>Javascript</h3>
+						<ul class="unstyled">
+							<li class="btn">Lawyer Site</li>
+							<li class="btn">Destist Site</li>
+							<li class="btn">Food Site</li>
+							<li class="btn">Gaming Site</li>
+						</ul>
+					</div>
+					<div class="span3">
+						<h3>Design Theory</h3>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -265,14 +218,14 @@
 	<div class="sectionFooter expand-down-small" id="sectionFooter">
 		<div class="container">
 			<div class="row-fluid">
-					<div class="footer">
-						
-							<p>&copy; 2013 Brian Story  <a href="#sectionHome" class="btn btn-success pull-right">Back to top</a> </p>
-							
-						
-						</div>
-						
-					
+				<div class="footer">
+
+					<p>&copy; 2013 Brian Story  <a href="#sectionHome" class="btn btn-success pull-right">Back to top</a> </p>
+
+
+				</div>
+
+
 			</div>
 		</div>
 	</div>	
