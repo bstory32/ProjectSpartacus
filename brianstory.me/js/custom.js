@@ -52,8 +52,6 @@ $(window).scroll(function () {
 	}                 
 });
 
-
-
 // Initialize mixitup
 $(function(){
 	$('#Grid').mixitup();
@@ -63,25 +61,11 @@ $(function(){
 $(document).ready(function() {
 
 	/* This is basic - uses default settings */
-	
-
-	
-	/* Using custom settings */
-	
 	$("a.inline").fancybox({
 		'hideOnContentClick': true,
-		'autoScale' : false,
+		'autoScale'         : false,
 		'width'             : 1000, 
 	});
 
-	/* Apply fancybox to multiple items */
-	
-	$("a.group").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false
-	});
 	
 });
