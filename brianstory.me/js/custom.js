@@ -14,11 +14,16 @@ $(document).ready(function() {
 				$(this).trigger('click');
 			}
 		});
-
 		e.preventDefault();
 	});
-
 });
+
+// Image Gallery
+function imageSwap() {
+	alert($(this).element)
+	var x=document.getElementById("pictureMain");
+	// x.src = $(this).src;
+};
 
 // Initialize font
 WebFontConfig = { fontdeck: { id: '35088' } };
@@ -69,3 +74,4 @@ $(document).ready(function() {
 
 	
 });
+
