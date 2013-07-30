@@ -19,11 +19,16 @@ $(document).ready(function() {
 });
 
 // Image Gallery
-function imageSwap() {
-	alert($(this).element)
-	var x=document.getElementById("pictureMain");
-	// x.src = $(this).src;
-};
+$(function(){
+	$('.projectGalleryPopup').each(function(){
+		var $popup = $(this);
+		var $main_picture = $popup.find('.projectGalleryMainPicture');
+		$('.projectGalleryThumbnails img').on('click', function(){
+			var url = $(this).data('large-url');
+			$main_picture.attr('src', url);
+		});
+	});
+});
 
 // Initialize font
 WebFontConfig = { fontdeck: { id: '35088' } };
